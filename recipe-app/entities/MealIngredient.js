@@ -7,3 +7,5 @@ class MealIngredient {
         this.isOptional = isOptional
     }
 }
+
+export default MealIngredient;

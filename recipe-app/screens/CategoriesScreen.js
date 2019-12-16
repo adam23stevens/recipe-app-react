@@ -6,10 +6,6 @@ import CategoryTile from '../components/CategoryTile';
 
 const CategoriesScreen = props => {
 
-    const gotoMeals = () => {
-        props.navigation.navigate({ routeName: 'CategoriesMeals' });
-    }
-
     const renderItem = (itemData) => {
         return (
             <CategoryTile
@@ -18,7 +14,7 @@ const CategoriesScreen = props => {
             onTileSelect= {
                 () => props.navigation.navigate({
                     routeName: 'CategoriesMeals',
-                    params: { categoryId: props.id}
+                    params: { categoryId: itemData.item.id}
                 })} />
         )
     }

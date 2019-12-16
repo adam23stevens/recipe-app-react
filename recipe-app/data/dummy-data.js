@@ -1,7 +1,7 @@
 import Category from '../entities/Category';
-import Ingredient from '../entites/Ingredient';
-import MealIngredient from '../entites/MealIngredient';
-import Meal from '../entites/Meal';
+import Ingredient from '../entities/Ingredient';
+import MealIngredient from '../entities/MealIngredient';
+import Meal from '../entities/Meal';
 
 export const CATEGORIES = [
   new Category('c1', 'Italian', '#f5428d'),

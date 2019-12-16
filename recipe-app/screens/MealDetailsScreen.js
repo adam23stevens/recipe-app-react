@@ -1,10 +1,14 @@
 import React from 'react';
-import {Text, View, StyleSheet} from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
+import { MEALS } from '../data/dummy-data';
 
 const MealDetailsScreen = props => {
+    const selectedMealId = props.navigation.getParam('mealId');
+    const selectedMeal = MEALS.find(f => f.id === selectedMealId);
+
     return (
         <View style={styles.screen}>
-            <Text>Meal Detail! yum yum</Text>
+            <Text>{selectedMeal.title}</Text>
         </View>
     )
 }

@@ -16,3 +16,5 @@ class Meal {
         this.isLactoseFree = isLactoseFree    
     }
 }
+
+export default Meal;

@@ -4,3 +4,5 @@ class Ingredient {
         this.title = title
     }
 }
+
+export default Ingredient;
