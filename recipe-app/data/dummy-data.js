@@ -16,6 +16,19 @@ export const CATEGORIES = [
   new Category('c10', 'Summer', '#47fced')
 ];
 
+export const CLUES = [
+  new Category('c1', 'Clue 1', '#f5428d'),
+  new Category('c2', 'Clue 2', '#f54242'),
+  new Category('c3', 'Clue 3', '#f5a442'),
+  new Category('c4', 'Clue 4', '#f5d142'),
+  new Category('c5', 'Clue 5', '#368dff'),
+  new Category('c6', 'Clue 6', '#41d95d'),
+  new Category('c7', 'Clue 7', '#9eecff'),
+  new Category('c8', 'Clue 8', '#b9ffb0'),
+  new Category('c9', 'Clue 9', '#ffc7ff'),
+  new Category('c10', 'Final Clue', '#47fced')
+];
+
 export const INGREDIENTS = [
   new Ingredient('i1', 'Tomato'),
   new Ingredient('i2', 'Olive oil'),

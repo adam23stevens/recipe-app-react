@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
         height: '15%'
     },
     mealTitle : {
-        fontFamily: 'open-sans-bold',
+        //fontFamily: 'open-sans-bold',
         fontSize: 20,
         textAlign: 'center',
         color: 'white',

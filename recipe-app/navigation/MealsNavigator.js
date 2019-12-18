@@ -7,8 +7,7 @@ import { Colours } from '../constants/colours';
 
 const mealNavigator = createStackNavigator({
     Categories: CategoriesScreen,
-    CategoriesMeals: CategoriesMealsScreen,
-    MealDetails : MealDetailsScreen
+    CategoriesMeals: CategoriesMealsScreen
 }, {
     defaultNavigationOptions: {
         headerStyle: {

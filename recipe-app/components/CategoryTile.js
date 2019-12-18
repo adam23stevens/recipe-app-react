@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
 const CategoryTile = props => {
+
     return (
         <TouchableOpacity onPress={props.onTileSelect} style={styles.gridItem}>
             <View style={{ ...styles.container, ...{ backgroundColor: props.colour } }}>
@@ -30,7 +31,7 @@ const styles = StyleSheet.create({
         alignItems: 'flex-end'
     },
     title: {
-        fontFamily: 'open-sans-bold',
+        //fontFamily: 'open-sans-bold',
         fontSize: 22
     }
 })
