@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text, View, Button, FlatList,TextInput, StyleSheet, Alert} from 'react-native';
+import { Text, View, Button, FlatList, TextInput, StyleSheet, Alert } from 'react-native';
 import { CATEGORIES, MEALS } from '../data/dummy-data';
 import { Colours } from '../constants/colours';
 import MealItem from '../components/MealItem';
@@ -18,11 +18,11 @@ const CategoriesMealsScreen = props => {
         });
         setIsLoaded(true);
     }
-    const onTextInput =(t) => {
+    const onTextInput = (t) => {
         setClueText(t);
     }
-    
-    const onClueSubmit= () => {
+
+    const onClueSubmit = () => {
         if (clueText.toUpperCase() === clue.answer.toUpperCase()) {
             Alert.alert("you got it right!");
 
@@ -37,36 +37,29 @@ const CategoriesMealsScreen = props => {
         setClueText('');
     }
 
-    //const selectedMeals = MEALS.filter(m => m.categoryIds.indexOf() > -1);
-
-
-    // const renderMealItem = (itemData) => {
-    //     return (
-    //         // <MealItem title={itemData.item.title}
-    //         //     duration={itemData.item.duration}
-    //         //     complexity={itemData.item.complexity}
-    //         //     affordability={itemData.item.affordability}
-    //         //     image={itemData.item.imageUrl}
-    //         //     onSelectMealItem={() => {
-    //         //         props.navigation.navigate({
-    //         //             routeName: 'MealDetails',
-    //         //             params: { mealId: itemData.item.id }
-    //         //         })
-    //         //     }} />
-    //         <View><Text>{itemData.</Text></View>
-    //     )
-    // }
-
+    if (clue.unlocksClueId > 50) {
+        return (
+            <View style={styles.screen}>
+                <View>
+                    <Text style={styles.clueText}>{clue.clueText}</Text>
+                </View>
+            </View>
+        )
+    }
+    else
     return (
         <View style={styles.screen}>
-
-            <Text>{clue.clueText}</Text>
-            <TextInput placeholder="Answer..." 
-            onChangeText={t => onTextInput(t)} 
-            value={clueText} 
-            style={styles.ClueInput}/>
-
-            <Button onPress={onClueSubmit} title="Guess!"/>
+            <View>
+                <Text style={styles.clueText}>{clue.clueText}</Text>
+    
+            </View>
+            <View style={styles.bottomView}>
+            <TextInput placeholder="Answer..."
+                    onChangeText={t => onTextInput(t)}
+                    value={clueText}
+                    style={styles.ClueInput} />
+                <Button onPress={onClueSubmit} title="Guess!"/>
+            </View>
         </View>
     )
 }
@@ -82,18 +75,31 @@ CategoriesMealsScreen.navigationOptions = navigationData => {
 
 const styles = StyleSheet.create({
     screen: {
-        flex: 1,
+        height: '70%',
+        flex:1,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        backgroundColor: '#FFDCB5'
+    },
+    clueText: {
+        margin: 10,
+        fontSize: 20,
+        color: '#6C10F2'
     },
     mealList: {
         width: '100%',
         padding: 3
     },
     clueInput: {
-        marginTop: 10,
+        marginTop: 30,
         borderColor: 'black',
-        borderWidth:2
+        borderWidth: 2,
+        fontSize: 18
+    },
+    bottomView: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: 80
     }
 });
 

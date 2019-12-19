@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Text, View, Button, FlatList, StyleSheet, TouchableOpacity } from 'react-native';
+import { Text, View, Button, FlatList, StyleSheet, ImageBackground } from 'react-native';
 import { CATEGORIES } from '../data/dummy-data';
 import { Colours } from '../constants/colours';
 import CategoryTile from '../components/CategoryTile';
@@ -41,12 +41,14 @@ const CategoriesScreen = props => {
     return (
         //<View><Text>{oneClue.title}</Text></View>
         //<View style={styles.test}><Text></Text></View>
-        <FlatList data={allClues} renderItem={renderItem} numColumns={2} />
+        <ImageBackground source={require('../assets/tinsel.png')} style={styles.background}>
+            <FlatList data={allClues} renderItem={renderItem} />
+        </ImageBackground>
     )
 }
 
 CategoriesScreen.navigationOptions = {
-    headerTitle: 'Meal Categories'
+    headerTitle: '!TEAM TINSEL!'
 }
 
 const styles = StyleSheet.create({
@@ -57,6 +59,9 @@ const styles = StyleSheet.create({
     },
     test: {
         flex: 1
+    },
+    background: {
+       height: '100%'
     }
 });
 
