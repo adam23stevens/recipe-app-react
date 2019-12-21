@@ -75,7 +75,7 @@ CategoriesMealsScreen.navigationOptions = navigationData => {
 
 const styles = StyleSheet.create({
     screen: {
-        height: '70%',
+        height: '40%',
         flex:1,
         justifyContent: 'center',
         alignItems: 'center',
