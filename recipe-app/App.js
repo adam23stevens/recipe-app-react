@@ -9,14 +9,14 @@ init();
 
 DeleteClues();
 
-InsertClue('Clue 1', 'You\'ll get this so quick, It\'s really so easy. But it\'ll not always be so, easy peasy something squeezy', 2, 'sprouts', 1);
-InsertClue('Clue 2', 'Well done you clever souls! You\'re all too smart to behold. I bet you can raise the heat, In the dials you can hold', 3, 'stocking', 0);
-InsertClue('Clue 3', 'Hey you smart folks, now it\'s time to fly! Like Santa I suppose, Study the city from up high', 4, 'snowman', 0);
-InsertClue('Clue 4', 'Please put back London nicely. Treat it with respect. Now somewhere is a number, a registration to inspect', 5, 'LD18 XSR', 0);
+InsertClue('Clue 1', 'Let\'s start this off simple. This is easier than most. You\'ll not always be so jammy, spreading it on toast', 2, 'sprouts', 1);
+InsertClue('Clue 2', 'Well done for the first one. Next is a game in itself. Where else would you find all the villagers on the shelf', 3, 'stocking', 0);
+InsertClue('Clue 3', 'Doing so well now. You fill me with pride. Wait, what\'s that sound? Is that Rudolph outside?!', 4, 'snowman', 0);
+InsertClue('Clue 4', 'Good going so far. Is reading a hobby? Please do watch out, keep off the track Bobbie!', 5, 'LD18 XSR', 0);
 InsertClue('Clue 5', 'Golly gosh I best make this harder! You make it look easy to do. Now I sure do fancy some choklit. 25 of them will do!', 6, 'Gold rings', 0);
-InsertClue('Clue 6', 'Maths is good fun eh? Now your brains are fried, I\'ll just tell you the next one. It really is chilli outside', 7, 'pantomime', 0);
-InsertClue('Clue 7', 'Easy if the answer is given. I\'m now not forethcoming to please. For you\'ll need to think different, and not unlock doors with these keys', 8, 'jingle bells', 0);
-InsertClue('Clue 8', 'A well done from me, To you gents and you ladies. Be gentle to the trees though, for they are just only babies', 9, 'santa baby', 0);
+InsertClue('Clue 6', 'Binary is good fun eh, now you\'re all in for a treat. Just ppppick up the next one under some happy feet.', 7, 'pantomime', 0);
+InsertClue('Clue 7', 'This next one is written on a door that\'s quite large. To give you a further clue, it rhymes with Nigel Farage', 8, 'jingle bells', 0);
+InsertClue('Clue 8', 'You\'ve been running and searching. You\'ve been all round the block. To find this next one, look in the big sock', 9, 'santa baby', 0);
 InsertClue('Final Clue', 'Now bounce up and spring, for all you need to win, is dial me up and ring, AND GIVE A GOOD CHRISTMASSY SING!', 99, '', 0);
 
 

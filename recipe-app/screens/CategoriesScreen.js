@@ -41,14 +41,14 @@ const CategoriesScreen = props => {
     return (
         //<View><Text>{oneClue.title}</Text></View>
         //<View style={styles.test}><Text></Text></View>
-        <ImageBackground source={require('../assets/tinsel.png')} style={styles.background}>
+        <ImageBackground source={require('../assets/baubles.jpg')} style={styles.background}>
             <FlatList data={allClues} renderItem={renderItem} />
         </ImageBackground>
     )
 }
 
 CategoriesScreen.navigationOptions = {
-    headerTitle: '!TEAM TINSEL!'
+    headerTitle: '!TEAM BAUBLES!'
 }
 
 const styles = StyleSheet.create({
