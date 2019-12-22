@@ -13,8 +13,8 @@ const MainScreen = props => {
 
     return (
         <ImageBackground source={require('../assets/tinsel.png')} style={styles.main}>
-                <Text>Do not press GO until told!</Text>
-                <Button onPress={onPressGo} style={styles.button} title="GO!" />
+            <Text style={styles.text}>Do not press GO until told!</Text>
+            <Button onPress={onPressGo} style={styles.button} title="GO!" />
         </ImageBackground>
     )
 }
@@ -25,6 +25,9 @@ const styles = StyleSheet.create({
     },
     button: {
         alignContent: 'flex-end'
+    },
+    text: {
+        color: 'red'
     }
 })
 

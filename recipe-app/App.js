@@ -16,7 +16,8 @@ InsertClue('Clue 4', 'Please put back London nicely. Treat it with respect. Now 
 InsertClue('Clue 5', 'Golly gosh I best make this harder! You make it look easy to do. Now I sure do fancy some choklit. 25 of them will do!', 6, 'Gold rings', 0);
 InsertClue('Clue 6', 'Maths is good fun eh? Now your brains are fried, I\'ll just tell you the next one. It really is chilli outside', 7, 'pantomime', 0);
 InsertClue('Clue 7', 'Easy if the answer is given. I\'m now not forethcoming to please. For you\'ll need to think different, and not unlock doors with these keys', 8, 'jingle bells', 0);
-InsertClue('Clue 8', 'A well done from me, To you gents and you ladies. Be gentle to the trees though, for they are just babies', 9, 'santa baby', 0);
+InsertClue('Clue 8', 'Where to go next? Well, if reading\'s a hobby. You\'ll need to stand back and keep off the track Bobbie', 9,'nutmeg', 0);
+InsertClue('Clue 9', 'A well done from me, To you gents and you ladies. Be gentle to the trees though, for they are just babies', 10, 'santa baby', 0);
 InsertClue('Final Clue', 'Now bounce up and spring, for all you need to win, is dial me up and ring, AND GIVE A GOOD CHRISTMASSY SING!', 99, '', 0);
 
 
