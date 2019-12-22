@@ -15,9 +15,10 @@ InsertClue('Clue 3', 'Doing so well now. You fill me with pride. Wait, what\'s t
 InsertClue('Clue 4', 'While you\'re still outisde, you might want to wonder, the next clue just may be, for a registration number', 5, 'Candy Cane', 0);
 InsertClue('Clue 5', 'Golly gosh I best make this harder! You make it look easy to do. Now I sure do fancy some choklit. 25 of them will do!', 6, 'Gold rings', 0);
 InsertClue('Clue 6', 'Binary is good fun eh, now you\'re all in for a treat. Just ppppick up the next one under some happy feet.', 7, 'pantomime', 0);
-InsertClue('Clue 7', 'This next one is written on a door that\'s quite large. To give you a further clue, it rhymes with Nigel Farage', 8, 'jingle bells', 0);
-InsertClue('Clue 8', 'You\'ve been running and searching. You\'ve been all round the block. To find this next one, look in the big sock', 9, 'santa baby', 0);
-InsertClue('Final Clue', 'Now bounce up and spring, for all you need to win, is dial me up and ring, AND GIVE A GOOD CHRISTMASSY SING!', 99, '', 0);
+InsertClue('Clue 7', 'Wood is made from trees. You ought to know so you should. But have you ever seen a tree made out of wood?', 8, 'nutmeg', 0);
+InsertClue('Clue 8', 'This next one is written on a door that\'s quite large. To give you a further clue, it rhymes with Nigel Farage', 9, 'jingle bells', 0);
+InsertClue('Clue 9', 'You\'ve been running and searching. You\'ve been all round the block. To find this next one, look in the big sock', 10, 'santa baby', 0);
+ InsertClue('Final Clue', 'Now bounce up and spring, for all you need to win, is dial me up and ring, AND GIVE A GOOD CHRISTMASSY SING!', 99, '', 0);
 
 
 const fetchFonts = () => {
