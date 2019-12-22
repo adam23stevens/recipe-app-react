@@ -79,12 +79,12 @@ const styles = StyleSheet.create({
         flex:1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#F8DAFC'
+        backgroundColor: '#C3FFC3'
     },
     clueText: {
         margin: 10,
         fontSize: 20,
-        color: '#1A03FF'
+        color: '#29AD29'
     },
     mealList: {
         width: '100%',

@@ -11,8 +11,8 @@ DeleteClues();
 
 InsertClue('Clue 1', 'Let\'s start this off simple. This is easier than most. You\'ll not always be so jammy, spreading it on toast', 2, 'sprouts', 1);
 InsertClue('Clue 2', 'Well done for the first one. Next is a game in itself. Where else would you find all the villagers on the shelf', 3, 'stocking', 0);
-InsertClue('Clue 3', 'Doing so well now. You fill me with pride. Wait, what\'s that sound? Is that Rudolph outside?!', 4, 'snowman', 0);
-InsertClue('Clue 4', 'Good going so far. Is reading a hobby? Please do watch out, keep off the track Bobbie!', 5, 'LD18 XSR', 0);
+InsertClue('Clue 3', 'Doing so well now. You fill me with pride. Wait, what\'s that sound? Has my red nose just arrived?!', 4, 'snowman', 0);
+InsertClue('Clue 4', 'While you\'re still outisde, you might want to wonder, the next clue just may be, for a registration number', 5, 'Candy Cane', 0);
 InsertClue('Clue 5', 'Golly gosh I best make this harder! You make it look easy to do. Now I sure do fancy some choklit. 25 of them will do!', 6, 'Gold rings', 0);
 InsertClue('Clue 6', 'Binary is good fun eh, now you\'re all in for a treat. Just ppppick up the next one under some happy feet.', 7, 'pantomime', 0);
 InsertClue('Clue 7', 'This next one is written on a door that\'s quite large. To give you a further clue, it rhymes with Nigel Farage', 8, 'jingle bells', 0);
