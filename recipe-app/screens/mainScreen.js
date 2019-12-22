@@ -27,7 +27,8 @@ const styles = StyleSheet.create({
         alignContent: 'flex-end'
     },
     text: {
-        color: 'red'
+        color: 'red',
+        fontSize: 20
     }
 })
 
